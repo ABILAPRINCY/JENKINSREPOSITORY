@@ -10,7 +10,7 @@ public class File_Utility {
 	 * This method is used to read data from properties_file (External Resource)
 	 * @param Key
 	 * @return
-	 * @author Shobha
+	 * @author Abila
 	 * @throws Throwable
 	 */
 	public String getKeyAndValuePair(String Key) throws Throwable {
