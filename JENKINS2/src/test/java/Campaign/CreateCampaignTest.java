@@ -79,7 +79,7 @@ public class CreateCampaignTest extends BaseClass {
 	@Test
 	public void m2()
 	{
-		System.out.println("Hi im Shobha");
+		System.out.println("Welcome");
 	}
 	
 }

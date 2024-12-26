@@ -36,7 +36,7 @@ public class Excel_Utility {
 
 	public String readExcelDataUsingDataFormatter(String sheetName, int rowNum, int cellNum) throws Throwable {
 		// step1:- Path setting of the Excel file
-		FileInputStream fis1 = new FileInputStream("./src/test/resources/TestData11.xlsx");
+		FileInputStream fis1 = new FileInputStream("D:\\PRINCY\\SeleniumFiles\\ReadData1.xlsx");
 
 		// step2:- keep the File in read mode
 		Workbook book = WorkbookFactory.create(fis1);
@@ -60,8 +60,7 @@ public class Excel_Utility {
 	public Object[][] readExcelDataForDataProvider(String sheetName) throws Throwable
 
 	{
-		FileInputStream fis1 = new FileInputStream("./src/test/resources/TestData11.xlsx");
-
+		FileInputStream fis1 = new FileInputStream("D:\\PRINCY\\SeleniumFiles\\ReadData1.xlsx");
 		Workbook book = WorkbookFactory.create(fis1);
 
 		Sheet sheet = book.getSheet(sheetName);
