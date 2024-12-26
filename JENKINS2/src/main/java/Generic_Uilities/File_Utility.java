@@ -15,7 +15,7 @@ public class File_Utility {
 	 */
 	public String getKeyAndValuePair(String Key) throws Throwable {
 
-		FileInputStream fis = new FileInputStream("./src/test/resources/CommonDatas.properties");
+		FileInputStream fis1 = new FileInputStream("D:\\PRINCY\\SeleniumFiles\\ReadData1.xlsx");
 		Properties pro = new Properties();
 		pro.load(fis);
 		String value = pro.getProperty(Key);
